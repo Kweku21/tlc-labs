@@ -3,11 +3,13 @@
 using namespace std;
 
 /**
-   Question 1
-   */
+  Question 1
+*/
 int input(int num_1, int num_2){
 
+
     return num_1 + num_2;
+
 }
 
 /**
@@ -17,15 +19,11 @@ Question 2
 // Function with parameter type of int
 void output(int number){
 
-
-
     cout<<typeid(number).name()<<endl;
 }
 
 // Function with parameter type of string
 void output(string word){
-
-
 
     cout<<typeid(word).name()<<endl;
 }
@@ -71,21 +69,21 @@ int main()
    Question 1
    */
 
-   //cout<<"Result is "<<input(1,2)<<endl;
+   cout<<"Result is "<<input(1,2)<<endl;
 
    /**
    Question 2
    */
-   //output(23); // int function
-   //output('A'); // char
-    string word = "Word";
-   //output(word); // string function
+   output(23); // int function
+   output('A'); // char
+   string word = "Word";
+   output(word); // string function
 
    float decimal = 3.14;
-   //output(decimal); // float function
+   output(decimal); // float function
 
    long long_decimal = 7.1234456778;
-   //output(long_decimal); // float function
+   output(long_decimal); // float function
 
    /**
    Question 6
